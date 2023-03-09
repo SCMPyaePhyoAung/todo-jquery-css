@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.container {
+    width: 35%;
+    height: auto;
+    border: 1px solid silver;
+    display: block;
+    margin: 10% auto;
+    padding: 10px;
+    box-shadow: 2px 2px 7px silver;
+
+}
+
+.main-ttl {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.text-box {
+    padding: 16px 5px;
+    width: 90%;
+    border: 1px solid silver;
+    font-size: 16px;
+}
+
+.btn-submit {
+    width: 9.2%;
+    padding: 17px 5px;
+    background-color: #1c1cffdd;
+    color: white;
+}
+
+.filter-blk {
+    padding: 15px 0;
+}
+
+.filter-blk .active {
+    color: #686868;
+}
+
+.btn-link {
+    width: 32.8%;
+    padding: 11px;
+    background-color: #e0e0ffdd;
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-group {
+    padding: 10px 0;
+}
+
+.btn-action {
+    width: 49.6%;
+    padding: 11px;
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);
+    border: 1px solid rgb(233, 233, 233) !important;
+}
+
+.btn {
+    border: transparent;
+    display: inline-block;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+/* Style the close button */
+.close {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.check-box {
+    float: left;
+}
+
+ul li .delete {
+    float: right;
+}
+
+.delete {
+    color: #ff0000;
+    cursor: pointer;
+    padding: 3px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+ul li label.checked {
+    text-decoration: line-through;
+}
+
+.hide {
+    display: none !important;
+    background-color: red;
+}
+
+.task_name {
+    padding-left: 7px;
+}
+
+.edit_checkbox {
+    padding: 16px 5px;
+    width: 100%;
+    border: 1px solid silver;
+    font-size: 16px;
+}
+
+.total {
+    color: #757575;
+}
